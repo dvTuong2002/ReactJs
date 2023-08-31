@@ -26,7 +26,7 @@ export const act_update_item=(product,quantity)=>{
     }
 }
 
-//action cho chức nagw xóa 1 sản phẩm trong giỏ hàng
+//action cho chức năng xóa 1 sản phẩm trong giỏ hàng
 export const act_remove_item=(product)=>{
     return {
         type: types.REMOVE_ITEM,

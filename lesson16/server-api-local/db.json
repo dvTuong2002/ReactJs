@@ -1,0 +1,13 @@
+
+{
+    "users":[
+        {"id":111, "username":"Do","password":"123"},
+        {"id":112, "username":"Do Van","password":"123"},
+        {"id":113, "username":"Do Van Tuong","password":"123"}
+    ],
+    "student":[
+        {"studentId":"SV001", "studentName":"Do Van Tuong","age":"21"},
+        {"studentId":"SV002", "studentName":"Do Van","age":"21"},
+        {"studentId":"SV003", "studentName":"Do","age":"21"}
+    ]
+}

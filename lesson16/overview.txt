@@ -1,0 +1,16 @@
+ReactJs - Mock API
+I. Xây dựng các mock API
+    1. Tạo mock API local với JSON Sever
+        -Tạo 1 thứ mục và cài đặt npm cho thư mục
+            npm init --yes
+        -Cài đặt JSON Sever
+            npm install -g json-Server
+        -Tạo db.json trong thư mục gốc
+            ++ tạo các mock data
+        -Start Sever JSON
+            + Tạo start trong script của packet.json
+                "start":"json-sever --watch db.json --port 3001"
+            + Start JSON Sever
+                npm start
+
+    2. Mock API online với https://mockapi.io

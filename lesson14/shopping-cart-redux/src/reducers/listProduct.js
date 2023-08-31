@@ -25,11 +25,11 @@ const initialState = [
         price: 8,
         quantity: 8,
         image: "target-leap-frog.jpg"
-    },  
+    },
 ];
 
 //reducer (2)
-const listProduct =(state=initialState, action)=>{
+const listProduct = (state = initialState, action) => {
     switch (action.type) {
         case LIST_PRODUCT:
             return state;
@@ -37,8 +37,6 @@ const listProduct =(state=initialState, action)=>{
             return state;
     }
 }
-
-
 
 // export
 export default listProduct;
